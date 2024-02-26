@@ -1,10 +1,13 @@
 {
   "name": "tom-hello",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Just a test package.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/TomFanHM/test-library"
+  },
   "scripts": {
     "build": "tsup"
   },
